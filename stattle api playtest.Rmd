@@ -31,4 +31,7 @@ Review data
 ```{r}
 head(players_df)
 ```
+```{r}
+write.csv(players_df, "player_data.csv")
+```
 

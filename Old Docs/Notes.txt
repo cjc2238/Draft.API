@@ -1,0 +1,69 @@
+# Time on Ice
+
+Normalize the Time on Ice for each player - seperated by year. Then normalize the team's ranking they played on for that year. Treat the yearly ranking as weight for the score.
+
+Normalize Salary accross leagues and years for the players. 
+
+TOI * Team RANK = TOI Value
+----------------------   = Cost Value
+Norm(SALARY)
+
+
+
+################
+## RESOURCES ##
+###############
+
+
+## How to:
+
+https://puckplusplus.com/2015/06/28/predicting-free-agent-salaries/ 
+
+## Data:
+
+http://www.spotrac.com/nhl/
+
+https://github.com/war-on-ice
+
+http://www.quanthockey.com/
+
+http://www.quanthockey.com/nhl/seasons/2016-17-nhl-forwards-stats.html
+
+http://www.hockey-reference.com/about/point_shares.html
+
+http://stats.nhlnumbers.com/player_stats/position/skater/year/2008
+
+https://www.usatoday.com/sports/nhl/salaries/2014/player/all/
+
+http://www.nhl.com/ice/draftprospectbrowse.htm
+
+## Model Input Features
+
+Player Position
+Shoots (Left/Right)
+Heights
+Weight
+Draft League
+Age
+even strength points only
+power play  goals
+power play primary assists
+power play secondary assists
+total PP points
+shorthanded goals (on PK)
+shorthanded primary assists
+shorthanded secondary assists
+total shorthanded points
+Total goals
+Total primary assists
+Total secondary assists
+Total points - goals and assists
+Even strength points per game
+Power play points per game 
+percentage of points at even strength - EV / ALL
+percentage of points on power play - PP / ALL
+primary points per game played
+Team total goals scored
+Team total goals against
+Goals Score Percent [Team total goals scored/ (Teal total goals scored + Teal totals goals against)]
+

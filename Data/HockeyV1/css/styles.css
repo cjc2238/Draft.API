@@ -1,0 +1,42 @@
+.stats-container {
+    width: 100%;
+    height: 20em;
+    overflow-x: scroll;
+}
+
+.playerCard {
+	border-style: solid;
+}
+
+.playerCardDetailed {
+}
+
+.btn-stats {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.centered-image-container {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+}
+
+.centered-image {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.centered-image-bordered {
+    padding: 5px;
+    vertical-align: middle;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#filterWidget {
+	border-style: solid;
+	border-width: 1px;
+}
